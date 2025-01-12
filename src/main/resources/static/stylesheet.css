@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    #background-color: #2D2D2A
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2D2D2A   ; /* Светлый фон */
+    height: 100vh; /* Полная высота окна */
+    display: flex;/* Используем flexbox для выравнивания */
+}
+
+/* Стили для панели */
+.navigation-panel {
+    margin: 20px 0 20px 20px;
+    width: 300px; /* Ширина панели */
+    #height: 150px; /* Высота панели */
+    background-color: #3F5E5A; /* Цвет фона панели */
+    border-radius: 15px; /* Скругленные углы */
+    display: flex; /* Используем flexbox внутри панели */
+    justify-content: center; /* Центрируем контент по горизонтали */
+    align-items: center; /* Центрируем контент по вертикали */
+    box-shadow: 0 4px 10px #20FC8F; /* Тень для панели */
+}
+
+.entry-panel {
+    margin: 20px 0 20px 20px;
+    width: 300px; /* Ширина панели */
+    #height: 150px; /* Высота панели */
+    background-color: #353831; /* Цвет фона панели */
+    border-radius: 15px; /* Скругленные углы */
+    display: flex; /* Используем flexbox внутри панели */
+    justify-content: center; /* Центрируем контент по горизонтали */
+    align-items: center; /* Центрируем контент по вертикали */
+    box-shadow: 0 4px 10px white; /* Тень для панели */
+}
+
+/* Стили для текста внутри панели */
+.panel-text {
+    color: white; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 10px; /* Отступы внутри панели */
+}
